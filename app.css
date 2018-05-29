@@ -8,6 +8,49 @@ body {
     margin:auto;
 }
 
+.post-div {
+    padding: 20px 60px 20px 30px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.side-div {
+    padding: 17px 20px 17px 20px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+h1 {
+    color: red;
+    font-size: 20px;
+}
+h2 {
+    color: gray;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+}
+h3 {
+    font-size: 20px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: darkgray;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+footer p {
+    margin-left: 20px;
+    color: white;
+}
+
+.red-font {
+    color: red;
+}
+
 @media screen and (min-width: 768px) {
     .navBar {
         padding: 10px 0 10px 0;
@@ -31,49 +74,6 @@ body {
         float: right;
         width: 29%;
     }
-    
-    .post-div {
-        padding: 20px 60px 20px 30px;
-        background-color: white;
-        margin-top: 10px;
-        border-radius: 5px;
-    }
-    .side-div {
-        padding: 17px 20px 17px 20px;
-        background-color: white;
-        margin-top: 10px;
-        border-radius: 5px;
-    }
-    h1 {
-        color: red;
-        font-size: 20px;
-    }
-    h2 {
-        color: gray;
-        font-size: 15px;
-        font-style: italic;
-        font-weight: normal;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    
-    footer {
-        float: left;
-        width: 100%;
-        background-color: darkgray;
-        margin-top: 30px;
-        border-radius: 5px;
-    }
-    
-    footer p {
-        margin-left: 20px;
-        color: white;
-    }
-    
-    .red-font {
-        color: red;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -94,48 +94,5 @@ body {
         width: 100%;
         display: block;
         margin: 0 auto 10px auto;
-    }
-
-    .post-div {
-        padding: 20px 60px 20px 30px;
-        background-color: white;
-        margin-top: 10px;
-        border-radius: 5px;
-    }
-    .side-div {
-        padding: 17px 20px 17px 20px;
-        background-color: white;
-        margin-top: 10px;
-        border-radius: 5px;
-    }
-    h1 {
-        color: red;
-        font-size: 20px;
-    }
-    h2 {
-        color: gray;
-        font-size: 15px;
-        font-style: italic;
-        font-weight: normal;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    
-    footer {
-        float: left;
-        width: 100%;
-        background-color: darkgray;
-        margin-top: 30px;
-        border-radius: 5px;
-    }
-    
-    footer p {
-        margin-left: 20px;
-        color: white;
-    }
-    
-    .red-font {
-        color: red;
     }
 }
